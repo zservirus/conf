@@ -15,6 +15,13 @@
 }
 ,{
     "action": "route",
+    "domain": [
+        "web.telegram.org"
+    ],
+    "outbound": "direct"
+}    
+,{
+    "action": "route",
     "outbound": "proxy",
     "rule_set": [
         "geoip-ru-blocked",
