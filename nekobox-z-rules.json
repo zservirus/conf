@@ -3,6 +3,33 @@
     "protocol": "dns"
 }
 ,{
+    "action": "route",
+    "ip_cidr": [
+        "108.156.24.91",
+        "34.107.172.168",
+        "3.33.223.161",
+        "34.111.113.40",
+        "15.197.194.220",
+        "172.64.146.157",
+        "108.156.24.204"
+    ],
+    "outbound": "proxy"
+}
+,{
+    "action": "route",
+    "domain_keyword": [
+        "telegram"
+    ],
+    "outbound": "direct"
+}
+,{
+    "action": "route",
+    "domain_keyword": [
+        "telegram"
+    ],
+    "outbound": "proxy"
+}
+,{
     "action": "reject",
     "rule_set": [
         "nekobox-adblocksingbox"
@@ -21,25 +48,5 @@
         "geosite-ru-blocked"
     ]
 }
-,{
-    "action": "route",
-    "domain": [
-        "github.com",
-        "githubusercontent.com"
-    ],
-    "outbound": "proxy"
-}
-,{
-    "action": "route",
-    "ip_cidr": [
-        "108.156.24.91",
-        "34.107.172.168",
-        "3.33.223.161",
-        "34.111.113.40",
-        "15.197.194.220",
-        "172.64.146.157",
-        "108.156.24.204"
-    ],
-    "outbound": "proxy"
-}
+
 ]
