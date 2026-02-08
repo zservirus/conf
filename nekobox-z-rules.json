@@ -15,13 +15,6 @@
 }
 ,{
     "action": "route",
-    "outbound": "direct",
-    "rule_set": [
-        "geosite-telegram"
-    ]
-}   
-,{
-    "action": "route",
     "outbound": "proxy",
     "rule_set": [
         "geoip-ru-blocked",
