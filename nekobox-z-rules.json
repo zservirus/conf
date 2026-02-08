@@ -23,6 +23,14 @@
 }
 ,{
     "action": "route",
+    "domain": [
+        "github.com",
+        "githubusercontent.com"
+    ],
+    "outbound": "proxy"
+}
+,{
+    "action": "route",
     "ip_cidr": [
         "108.156.24.91",
         "34.107.172.168",
