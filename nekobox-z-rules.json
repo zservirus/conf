@@ -25,7 +25,10 @@
 ,{
     "action": "route",
     "domain_keyword": [
-        "github"
+        "github",
+		"cloudfront",
+		"mechabellumgame"
+		
     ],
     "outbound": "proxy"
 }
