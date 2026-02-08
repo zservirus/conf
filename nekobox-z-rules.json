@@ -15,8 +15,8 @@
 }
 ,{
     "action": "route",
-    "domain": [
-        "web.telegram.org"
+    "domain_keyword": [
+        "web.telegram"
     ],
     "outbound": "direct"
 }    
