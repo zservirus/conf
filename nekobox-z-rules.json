@@ -15,11 +15,11 @@
 }
 ,{
     "action": "route",
-    "domain_keyword": [
-        "web.telegram"
-    ],
-    "outbound": "direct"
-}    
+    "outbound": "direct",
+    "rule_set": [
+        "geosite-telegram"
+    ]
+}   
 ,{
     "action": "route",
     "outbound": "proxy",
