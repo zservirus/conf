@@ -25,7 +25,7 @@
 ,{
     "action": "route",
     "domain_keyword": [
-        "telegram"
+        "github"
     ],
     "outbound": "proxy"
 }
