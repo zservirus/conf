@@ -20,7 +20,7 @@
     "domain_keyword": [
         "telegram"
     ],
-    "outbound": "direct"
+    "outbound": "proxy"
 }
 ,{
     "action": "route",
