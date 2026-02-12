@@ -29,7 +29,8 @@
 		"mechabellumgame",
         "steamstatic.com",
 		"steamcommunity",
-		"steampowered.com"
+		"steampowered.com",
+		"api.steampowered.com"
     ],
     "outbound": "proxy"
 }
