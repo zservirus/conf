@@ -25,13 +25,9 @@
 		"telegram",
 		"nol.com",
 		"triple.guide",
-		"interpark.com",
-		"interparkcdn.net",
+		"interpark",
 		"mechabellumgame",
-		"tour-web-assets.interparkcdn.net",
-        "community.fastly.steamstatic.com",
-        "client-update.fastly.steamstatic.com",
-        "cdn.fastly.steamstatic.com"
+        "steamstatic"
     ],
     "outbound": "proxy"
 }
