@@ -27,8 +27,11 @@
 		"triple.guide",
 		"interpark.com",
 		"interparkcdn.net",
-		"mechabellumgame"
-		
+		"mechabellumgame",
+		"tour-web-assets.interparkcdn.net",
+        "community.fastly.steamstatic.com",
+        "client-update.fastly.steamstatic.com",
+        "cdn.fastly.steamstatic.com"
     ],
     "outbound": "proxy"
 }
