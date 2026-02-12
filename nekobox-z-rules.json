@@ -13,7 +13,7 @@
         "172.64.146.157",
         "108.156.24.204"
     ],
-    "outbound": "proxy"
+	"outbound": "proxy"
 }
 ,{
     "action": "route",
@@ -28,7 +28,8 @@
 		"interpark",
 		"mechabellumgame",
         "steamstatic.com",
-		"steamcommunity"
+		"steamcommunity",
+		"steampowered.com"
     ],
     "outbound": "proxy"
 }
