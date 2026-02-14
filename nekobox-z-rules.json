@@ -30,7 +30,8 @@
         "steamstatic.com",
 		"steamcommunity",
 		"steampowered.com",
-		"api.steampowered.com"
+		"api.steampowered.com",
+		"devolutions.net"
     ],
     "outbound": "proxy"
 }
