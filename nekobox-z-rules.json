@@ -6,6 +6,7 @@
     "action": "route",
     "domain_keyword": [
         "yandex.ru",
+		"mail.yandex.ru"
     ],
     "outbound": "direct"
 }
