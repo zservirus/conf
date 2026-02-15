@@ -4,6 +4,13 @@
 }
 ,{
     "action": "route",
+    "domain_keyword": [
+        "yandex.ru",
+    ],
+    "outbound": "direct"
+}
+,{
+    "action": "route",
     "ip_cidr": [
         "108.156.24.91",
         "34.107.172.168",
