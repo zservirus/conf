@@ -39,6 +39,7 @@
 		"steamcommunity",
 		"steampowered.com",
 		"api.steampowered.com",
+		"stripe.com",
 		"devolutions.net"
     ],
     "outbound": "proxy"
