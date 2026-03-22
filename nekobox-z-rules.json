@@ -27,6 +27,13 @@
 }
 ,{
     "action": "route",
+    "ip_cidr": [
+        "10.124.1.101"
+        ],
+	"outbound": "direct"
+}
+,{
+    "action": "route",
     "domain_keyword": [
         "github",
 		"cloudfront",
