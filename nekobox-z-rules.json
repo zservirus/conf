@@ -6,7 +6,9 @@
     "action": "route",
     "domain_keyword": [
         "yandex.ru",
-		"mail.yandex.ru"
+		"mail.yandex.ru",
+		"mse24.ru",
+		"krsk"
     ],
     "outbound": "direct"
 }
