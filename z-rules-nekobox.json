@@ -60,7 +60,9 @@
 		"stripe.com",
 		"devolutions.net",
 		"jutsugames.com",
-		"steamcdn-a.akamaihd.net"
+		"steamcdn-a.akamaihd.net",
+		"evetools.org",
+		"e-351.com"
     ],
     "outbound": "proxy"
 }
