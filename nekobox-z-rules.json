@@ -1,4 +1,4 @@
-[{
+{
     "action": "hijack-dns",
     "protocol": "dns"
 }
@@ -45,4 +45,3 @@
         "\"Telegram.exe\",\"steamwebhelper.exe\",\"GitHubDesktop.exe\",\"Mechabellum.exe\""
     ]
 }
-]
