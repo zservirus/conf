@@ -1,0 +1,62 @@
+[{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "route",
+    "outbound": "direct",
+    "rule_set": [
+        "geoip-private"
+    ]
+}
+,{
+    "action": "reject",
+    "rule_set": [
+        "nekobox-adblocksingbox"
+    ]
+}
+,{
+    "action": "route",
+    "domain_keyword": [
+        "\"raw.githubusercontent.com\",\"steam\",\"cloudfront.net\",\"unity\",\"nol.com\",\"ecoflow\",\"evetools.org\",\"e-351.com\""
+    ],
+    "ip_cidr": [
+        "108.156.24.91",
+        "34.107.172.168",
+        "3.33.223.161",
+        "34.111.113.40",
+        "15.197.194.220",
+        "172.64.146.157",
+        "108.156.24.204",
+        "69.235.164.153",
+        "155.133.0.0/16"
+    ],
+    "outbound": "proxy",
+    "rule_set": [
+        "geoip-github",
+        "geoip-telegram",
+        "geosite-telegram",
+        "geosite-whatsapp",
+        "geosite-instagram",
+        "geosite-youtube",
+        "geosite-tiktok",
+        "geoip-ru-blocked",
+        "geoip-ru-blocked-community",
+        "geosite-ru-blocked"
+    ]
+}
+,{
+    "action": "route",
+    "outbound": "proxy",
+    "process_name": [
+        "\"Telegram.exe\",\"steamwebhelper.exe\",\"GitHubDesktop.exe\",\"Mechabellum.exe\""
+    ]
+}
+,{
+    "action": "route",
+    "ip_cidr": [
+        "155.212.0.0/20"
+    ],
+    "outbound": "direct"
+}
+]
