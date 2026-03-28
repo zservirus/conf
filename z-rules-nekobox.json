@@ -1,0 +1,86 @@
+[
+{
+    "action": "route",
+    "outbound": "proxy",
+    "rule_set": [
+        "geoip-telegram"
+    ]
+}
+,{
+    "action": "hijack-dns",
+    "protocol": "dns"
+}
+,{
+    "action": "route",
+    "domain_keyword": [
+        "yandex.ru",
+		"mail.yandex.ru",
+		"mse24.ru",
+		"krsk"
+    ],
+    "outbound": "direct"
+}
+,{
+    "action": "route",
+    "ip_cidr": [
+        "108.156.24.91",
+        "34.107.172.168",
+        "3.33.223.161",
+        "34.111.113.40",
+        "15.197.194.220",
+        "172.64.146.157",
+        "108.156.24.204",
+        "155.212.0.0/16"
+    ],
+	"outbound": "proxy"
+}
+,{
+    "action": "route",
+    "ip_cidr": [
+        "10.124.1.101"
+        ],
+	"outbound": "direct"
+}
+,{
+    "action": "route",
+    "domain_keyword": [
+        "github",
+		"cloudfront",
+		"2ip.",
+		"ecoflow",
+		"telegram",
+		"nol.com",
+		"triple.guide",
+		"interpark",
+		"mechabellumgame",
+		"steamstatic.com",
+		"steamcommunity",
+		"steampowered.com",
+		"api.steampowered.com",
+		"stripe.com",
+		"devolutions.net",
+		"jutsugames.com",
+		"steamcdn-a.akamaihd.net"
+    ],
+    "outbound": "proxy"
+}
+,{
+    "action": "reject",
+    "rule_set": [
+        "nekobox-adblocksingbox"
+    ]
+}
+,{
+    "action": "route",
+    "ip_is_private": true,
+    "outbound": "direct"
+}
+,{
+    "action": "route",
+    "outbound": "proxy",
+    "rule_set": [
+        "geoip-ru-blocked",
+        "geosite-ru-blocked"
+    ]
+}
+]
