@@ -1,5 +1,5 @@
 [
-,{
+{
     "action": "route",
     "outbound": "proxy",
     "rule_set": [
