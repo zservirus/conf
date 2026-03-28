@@ -21,6 +21,7 @@
         "34.111.113.40",
         "15.197.194.220",
         "172.64.146.157",
+		"155.133.0.0/16",
         "108.156.24.204"
     ],
 	"outbound": "proxy"
@@ -44,12 +45,15 @@
 		"triple.guide",
 		"interpark",
 		"mechabellumgame",
-        "steamstatic.com",
+		"steamstatic.com",
 		"steamcommunity",
 		"steampowered.com",
 		"api.steampowered.com",
 		"stripe.com",
-		"devolutions.net"
+		"devolutions.net",
+		
+		"jutsugames.com",
+		"steamcdn-a.akamaihd.net"
     ],
     "outbound": "proxy"
 }
