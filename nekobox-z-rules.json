@@ -22,7 +22,8 @@
         "15.197.194.220",
         "172.64.146.157",
 		"155.133.0.0/16",
-        "108.156.24.204"
+        "108.156.24.204",
+		"geoip:telegram"
     ],
 	"outbound": "proxy"
 }
@@ -51,7 +52,6 @@
 		"api.steampowered.com",
 		"stripe.com",
 		"devolutions.net",
-		
 		"jutsugames.com",
 		"steamcdn-a.akamaihd.net"
     ],
