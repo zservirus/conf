@@ -45,11 +45,4 @@
         "geosite-ru-blocked"
     ]
 }
-,{
-    "action": "route",
-    "outbound": "proxy",
-    "process_name": [
-        "\"Telegram.exe\",\"steamwebhelper.exe\",\"GitHubDesktop.exe\",\"Mechabellum.exe\""
-    ]
-}
 ]
