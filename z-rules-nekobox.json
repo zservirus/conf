@@ -17,8 +17,8 @@
 }
 ,{
     "action": "route",
-    "domain": [
-        "\"evetools.org\",\"e-351.com\","
+    "domain_keyword": [
+        "\"evetools.org\",\"e-351.com\""
     ],
     "outbound": "proxy",
     "rule_set": [
