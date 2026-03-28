@@ -19,10 +19,11 @@
 ,{
     "action": "route",
     "domain_keyword": [
-        "\"nol.com\",\"ecoflow\",\"github\",\"evetools.org\",\"e-351.com\""
+        "\"nol.com\",\"ecoflow\",\"evetools.org\",\"e-351.com\""
     ],
     "outbound": "proxy",
     "rule_set": [
+        "geoip-github",
         "geoip-telegram",
         "geosite-telegram",
         "geosite-whatsapp",
