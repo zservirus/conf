@@ -8,7 +8,7 @@
 	],
 	"outbound": "proxy"
 }
-{
+,{
     "action": "hijack-dns",
     "protocol": "dns"
 }
