@@ -12,13 +12,14 @@
 ,{
     "action": "reject",
     "rule_set": [
-        "geosite-ads"
+        "geosite-ads",
+        "nekobox-adblocksingbox"
     ]
 }
 ,{
     "action": "route",
     "domain_keyword": [
-        "\"evetools.org\",\"e-351.com\""
+        "\"nol.com\",\"ecoflow\",\"github\",\"evetools.org\",\"e-351.com\""
     ],
     "outbound": "proxy",
     "rule_set": [
