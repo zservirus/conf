@@ -4,21 +4,8 @@
 }
 ,{
     "action": "route",
-    "outbound": "direct",
-    "rule_set": [
-        "geoip-private"
-    ]
-}
-,{
-    "action": "reject",
-    "rule_set": [
-        "nekobox-adblocksingbox"
-    ]
-}
-,{
-    "action": "route",
     "domain_keyword": [
-        "\"raw.githubusercontent.com\",\"steam\",\"cloudfront.net\",\"unity\",\"nol.com\",\"ecoflow\",\"evetools.org\",\"e-351.com\""
+        "\"raw.githubusercontent.com\",\"steam\",\"cloudfront.net\",\"unity\",\"nol.com\",\"ecoflow\",\"evetools\",\"e-351\""
     ],
     "ip_cidr": [
         "108.156.24.91",
@@ -47,6 +34,19 @@
 }
 ,{
     "action": "route",
+    "outbound": "direct",
+    "rule_set": [
+        "geoip-private"
+    ]
+}
+,{
+    "action": "reject",
+    "rule_set": [
+        "nekobox-adblocksingbox"
+    ]
+}
+,{
+    "action": "route",
     "outbound": "proxy",
     "process_name": [
         "\"Telegram.exe\",\"steamwebhelper.exe\",\"GitHubDesktop.exe\",\"Mechabellum.exe\""
@@ -54,9 +54,47 @@
 }
 ,{
     "action": "route",
-    "ip_cidr": [
-        "155.212.0.0/20"
+    "domain_keyword": [
+        "yandex"
     ],
-    "outbound": "direct"
+    "ip_cidr": [
+        "155.212.0.0/20",
+        "77.88.0.0/16"
+    ],
+    "outbound": "direct",
+    "rule_set": [
+        "geosite-yandex"
+    ]
+}
+,{
+    "action": "reject",
+    "rule_set": [
+        "geosite-adblockplus",
+        "geosite-ads",
+        "geosite-adblock",
+        "geosite-youtube@ads"
+    ]
+}
+,{
+    "action": "route",
+    "domain": [
+        "www.mapbox.com",
+        "help.nextcloud.com",
+        "cloudflare.com"
+    ],
+    "domain_keyword": [
+        "netdrive.net",
+        "cyberduck.io",
+        "qidi3d.com",
+        "grafana.com",
+        "qidi3dprinter.com",
+        "tidio.co",
+        "nel.cloudflare.com",
+        "redditstatic.com",
+        "shop.app",
+        "translate-pa.googleapis.com",
+        "readthedocs.io"
+    ],
+    "outbound": "proxy"
 }
 ]
