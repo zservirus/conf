@@ -72,7 +72,9 @@
         "geosite-adblockplus",
         "geosite-ads",
         "geosite-adblock",
-        "geosite-youtube@ads"
+        "geosite-youtube@ads",
+        "geosite-google@ads",
+        "geosite-adguard"
     ]
 }
 ,{
